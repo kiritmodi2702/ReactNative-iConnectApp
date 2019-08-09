@@ -5,6 +5,12 @@
 - Navigation (Stack and Tab Navigation)
 - Image and Camera.
 
+# Download Android APK :
+
+https://www.dropbox.com/s/sexbqgwp8l26q7n/iConnectApp.apk?dl=0
+
+# iOS App :
+
 ![alt text](https://i.ibb.co/8c8B51Y/Simulator-Screen-Shot-i-Phone-X-2019-08-09-at-00-12-28.png)
 ![alt text](https://i.ibb.co/zxv97dQ/Simulator-Screen-Shot-i-Phone-X-2019-08-09-at-01-01-42.png)
 ![alt text](https://i.ibb.co/2K6Y0P8/Simulator-Screen-Shot-i-Phone-X-2019-08-09-at-01-04-04.png)
