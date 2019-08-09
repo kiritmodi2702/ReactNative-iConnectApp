@@ -40,7 +40,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>App use your camera only for registration.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>App use your photo only for registration.</string>
 	<key>UIAppFonts</key>

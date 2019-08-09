@@ -25,16 +25,6 @@ let signUpStyle = {
     alignItems: "center",
     justifyContent: "center"
   },
-  logoStyle: {
-    alignSelf: "center",
-    margin: 0
-  },
-  logoStylePad: {
-    alignSelf: "center",
-    margin: 20,
-    width: 210,
-    height: 127
-  },
   lblTitleStyle: {
     marginTop: Dimensions.get("window").height * 0.05,
     marginBottom: Dimensions.get("window").height * 0.03,
@@ -50,24 +40,6 @@ let signUpStyle = {
     width: "100%",
     marginTop: 0,
     marginBottom: 0
-  },
-  countryStyle: {
-    position: "absolute",
-    top: 0,
-    width: Globle.Pad.isIpad === 1 ? Dimensions.get("window").width - 80 : 320,
-    height: 60,
-    marginTop: 15
-  },
-  dashButtonStyle: {
-    height: 100,
-    width: 100,
-    borderStyle: "dashed",
-    borderWidth: 1,
-    borderRadius: 1,
-    borderColor: Color.TEXTFIELD_TITLE,
-    alignItems: "center",
-    justifyContent: "center",
-    flexDirection: "row"
   },
   profileTouchView: {
     width: width - 40,
@@ -115,8 +87,6 @@ if (screenDims.height > largeCutoff) {
   //small
   signUpStyle.keybordStyle.marginTop = Platform.OS === "ios" ? 0 : 10;
   signUpStyle.keybordStyle.marginBottom = 10;
-  signUpStyle.countryStyle.height = 40;
-  signUpStyle.countryStyle.marginTop = 10;
 }
 //@ts-ignore
 const styles = StyleSheet.create(signUpStyle);

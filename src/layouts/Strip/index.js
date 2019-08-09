@@ -277,7 +277,7 @@ export default class Strip extends Component<{}> {
               let values = this.state.stripData[mainIndex].colorAndValue.map(
                 item => item.value
               );
-              var closest = values.reduce(function(prev, curr) {
+              var closest = values.reduce(function (prev, curr) {
                 return Math.abs(curr - goal) < Math.abs(prev - goal)
                   ? curr
                   : prev;

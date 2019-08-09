@@ -71,8 +71,6 @@ if (screenDims.height > largeCutoff) {
   //small
   signUpStyle.keybordStyle.marginTop = Platform.OS === "ios" ? 0 : 10;
   signUpStyle.keybordStyle.marginBottom = 10;
-  signUpStyle.countryStyle.height = 40;
-  signUpStyle.countryStyle.marginTop = 10;
 }
 //@ts-ignore
 const styles = StyleSheet.create(signUpStyle);
